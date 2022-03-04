@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;300&family=Roboto:ital,wght@0,100;0,400;1,700&family=Sarala&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #ffffff 16.62%, #ffffff 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.cabeçalho-imagem {
+  height: 72px;
+}
+
+.cabeçalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabeçalho-menu-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.conteudo {
+  border-top: 0.4px solid #dcc5f1; /*Linha no topo*/
+  margin-bottom: 48px;
+}
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: "bebas neue";
+  font-weight: normal;
+  font-size: 50px;
+  color: #9561c5;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Flama";
+  color: #b98de2;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: #431172;
+  height: 50px;
+  width: 130px;
+  align-self: center;
+  font-family: "Flama";
+  font-size: 15px;
+  color: white;
+  border: none;
+  box-shadow: 3px 3px 9px #431172;
+  border-radius: 7px;
+}
+
+/*Transparência do botão*/
+.conteudo-principal-escrito-botao:hover {
+  background-color: #7229b5;
+}
+
+.conteudo-principal-imagem {
+  max-width: 500px;
+  max-height: 500px;
+  margin-top: 30px; /*Distância entre Me ama? e a imagem*/
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /*Distância entre conteúdo de mesmo setor (parágrafos)*/
+  margin-top: 48px;
+  font-family: "Flama";
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-titulo {
+  font-family: "Bebas Neue";
+  font-weight: 100;
+  font-size: 30px;
+  color: #9561c5;
+  border-top: 0.4px solid #dcc5f1;
+  margin-top: 30px;
+  padding-top: 45px; /*Distância entre o conteúdo e linha (border-top)*/
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: "Flama";
+  color: #b98de2;
+  font-size: medium;
+  font-weight: 100;
+  margin: 10px 70px 30px 70px;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 16px;
+}
